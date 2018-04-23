@@ -3,10 +3,11 @@ header {
 }
 
 #logo {
-    color: #1ad39a;
+    color: #000000;
     font-weight: 900;
     padding: 15px 0;
     display: block;
+    font-size: 1.7rem;
 }
 
 ul {
