@@ -8,6 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { ProductsComponent } from './products/products.component';
 import { AboutComponent } from './about/about.component';
 import {BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatButtonModule, MatCheckboxModule} from '@angular/material';
 import { routes } from './app.routes';
 
 @NgModule({
@@ -22,6 +23,7 @@ import { routes } from './app.routes';
     FormsModule,
     HttpModule,
     BrowserAnimationsModule,
+    [MatButtonModule, MatCheckboxModule],
     routes
   ],
   providers: [],
